@@ -387,6 +387,7 @@
     }
 
 
+
     .two-con {
         width: 50%;
         height: 500px;
@@ -416,21 +417,17 @@
         }
 
     }
-}
-
-
-    
-
+}/* Smartphones */
 @media only screen and (max-width: 500px) {
     .box1 {
         width: 50%
     }
 }
 
-
+/* Tablet */
 @media(min-width: 501px) and (max-width: 768px) {
     body {
-        background: blue;
+        background: white;
     }
 
     #tablet h1 {
@@ -438,10 +435,10 @@
     }
 }
 
-
+/* Normal */
 @media(min-width: 769px) and (max-width: 1200px) {
     body {
-        background: green;
+        background: white;
     }
 
     #normal h1 {
@@ -449,10 +446,10 @@
     }
 }
 
-
+/* Widescreen */
 @media(min-width: 1201px) {
     body {
-        background: black;
+        background: white;
     }
 
     #widescreen h1 {
@@ -460,10 +457,10 @@
     }
 }
 
-
+/* Landscape */
 @media(max-height: 500px) {
     body {
-        background: orange;
+        background: white;
     }
 
     #landscape h1 {
